@@ -1,0 +1,81 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)), url(../icon/pexels-jplenio-1435075.jpg) ;
+     background-position: center center;
+     background-size: cover;
+}
+
+
+.text-body { 
+    font-family: "Pacifico", cursive;
+}
+
+.bookmark-body h2 {
+    font-family:  'Righteous', cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #124b23, #e9db4a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.text-body::after{
+    content: '';
+    position: absolute;
+    background-color: #FEC260;
+    width: 100%;
+    height: 40%;
+    left: 0;
+    bottom: 3px;
+    transition: height 350ms;
+    z-index: -9999;
+}
+
+.text-body:hover::after{
+    height: 70%;
+}
+
+.btn-visit { 
+    background-color: #8A9E23;
+    color: #fff;
+}
+
+
+.btn-delete  {
+    background-color: #d30921de;
+    color: #fff;
+}
+
+
+.btn-visit:hover {
+    background-color: #8A9E23;
+    color: #fff;
+}
+.btn-delete:hover{
+    background-color: #d30921dc;
+    color: #fff;
+}
+
+.btn-submit { 
+    background-color: #e85329;
+    color: #fff;
+}
+.btn-submit:hover { 
+    background-color: #e85329;
+    color: #fff;
+}
+.text-h2 { 
+    font-family: "Righteous", sans-serif;
+}
+
+.bookmark-body  {
+    border-width: 2px 0 2px 0;
+    border-style: dotted;
+    color: #fff;
+}
+
+.sitename {
+    color: #fff;
+}
+.siteurl {
+    color: #fff;
+}
